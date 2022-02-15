@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom'
 import { adminLogin } from '../redux/action/adminAction'
 import classnames from 'classnames'
 
-
+import '../Style/AdminLogin.css'
 
 const LoginPage = () => {
     const store = useSelector((store) => store)
@@ -45,11 +45,11 @@ const LoginPage = () => {
 
     
     return (
-        <div className="container">
+        <div className="container-fluid" id="Container">
             <div className="row justify-content-center">
                 <div className="col-md-8">
-                    <div className="d-flex justify-content-md-center align-items-center vh-100">
-                        <div>
+                    <div className="d-flex justify-content-md-center align-items-center vh-100 " >
+                        <div style={{ backgroundColor: "white", borderRadius: "1.2rem", padding: "1rem 1rem 1rem 1rem"}}>
                             <h1 className="display-4 text-center">ADMIN</h1>
                             <form noValidate onSubmit={fromHandler}>
                                 <div className="form-group">

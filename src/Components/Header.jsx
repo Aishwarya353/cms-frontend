@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import { Link, useHistory } from 'react-router-dom'
-import { useSelector, useDispatch } from 'react-redux'
-import { adminLogout } from '../redux/action/adminAction'
-import '../Style/HomeHelper.css'
 
-const Home = () => {
+
+
+
+const Header = () => {
     const store = useSelector(store => store)
     const [name, setName] = useState("")
     useEffect(() => {
@@ -66,4 +65,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Header

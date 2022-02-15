@@ -1,0 +1,19 @@
+a {
+  text-decoration: none !important;
+  color: black;
+}
+a:hover {
+  color: black;
+  border: 10px;
+  border-color: skyblue;
+}
+/* .btn:active .btn:link {
+  display: grid;
+  place-items: center;
+  border: 3px solid;
+  border-image: linear-gradient(to left, rgb(52, 253, 233), rgb(241, 27, 241)) 0
+    0 1 0;
+  margin: 0;
+  padding: 0;
+} */
+/* px-1 text-green-500 border-b-4 border-green-500 font-semibold */
