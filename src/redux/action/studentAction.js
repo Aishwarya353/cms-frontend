@@ -10,7 +10,7 @@ import {
   SET_FLAG,
 } from "../actionTypes";
 
-const url = "http://localhost:4000";
+const url = "https://cms-backend-master.herokuapp.com/";
 
 export const setChatHistory = (data) => {
   return {

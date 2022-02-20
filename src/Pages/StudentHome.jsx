@@ -3,21 +3,22 @@ import { useSelector } from 'react-redux'
 import { Link, useHistory } from 'react-router-dom'
 import HomeHelper from '../Components/HomeHelper'
 
+import '../Style/general.css'
 const Home = () => {
     const store = useSelector((store) => store)
     const history = useHistory()
 
     return (
-        <div>
+        <div >
             {store.student.isAuthenticated ? <>
                 <HomeHelper />
-                <div className="container">
+                <div className="container" >
                     <div className="row">
                         <div className="col-md-2">
 
                         </div>
                         <div className="col-md-8 mt-5">
-                            <div className="row">
+                            <div className="row" id="bg">
                                 <div className="col-md-5">
                                     <div className="card" style={{ width: "18rem" }}>
                                         <img className="card-img-top" src={store.student.student.student.avatar} alt="Card image cap" />

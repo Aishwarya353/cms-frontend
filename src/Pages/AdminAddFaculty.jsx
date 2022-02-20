@@ -57,7 +57,7 @@ const AdminAddFaculty = () => {
     },[store.error,store.admin.adminAddFacultyFlag])
     return (
        
-        <div>
+        <div id="bg">
             {store.admin.isAuthenticated ? (<><AdminHomeHelper/>
                 <div className="container mt-5">
                     <div className="row ">

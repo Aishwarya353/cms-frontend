@@ -15,7 +15,7 @@ const setFaculty = (data) => {
   };
 };
 
-const url = "http://localhost:4000";
+const url = "https://cms-backend-master.herokuapp.com/";
 
 const fetchStudentsHelper = (data) => {
   return {

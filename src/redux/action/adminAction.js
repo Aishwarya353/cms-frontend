@@ -3,7 +3,7 @@ import setAuthToken from "../utils/setAuthToken";
 import jwt_decode from "jwt-decode";
 import { SET_ADMIN, SET_ERRORS, GET_SUBJECTS } from "../actionTypes";
 
-const url = "http://localhost:4000";
+const url = "https://cms-backend-master.herokuapp.com/";
 
 const setAdmin = (data) => {
   return {

@@ -96,8 +96,8 @@ const FacultyStudentLoginPags = () => {
                     <div className="row-md-6">
                     </div>
 
-                    <div className="d-flex justify-content-md-space-evenly align-items-center vh-100">
-                        <div className="row m-4" style={{paddingLeft:"30px"}}>
+                    <div className="d-flex justify-content-md-space-evenly align-items-center vh-100" >
+                        <div className="row m-4" id="css" style={{paddingLeft:"30px"}}>
                             <div className="col-md-8 m-auto border" style={{ backgroundColor: "white", borderRadius: "1.2rem", padding: "1rem 1rem 0rem 1rem" }}>
                                 <div>
                                     <h3 className="text-center ">FACULTY</h3>
@@ -136,7 +136,7 @@ const FacultyStudentLoginPags = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row m-5">
+                        <div className="row m-4"  id="css">
                             <div className="col-md-8 m-auto border" style={{ backgroundColor: "white", borderRadius: "1.2rem", padding: "1rem 1rem 0rem 1rem" }}>
                                 <div>
                                     <h3 className="text-center">STUDENT</h3>
