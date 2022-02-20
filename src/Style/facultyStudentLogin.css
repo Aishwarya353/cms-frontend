@@ -1,7 +1,6 @@
 #trail {
-  position: relative;
   background: url("https://vctw.ac.in/images/banner/02.jpg") center/cover
-    no-repeat fixed;
+    no-repeat fixed !important;
   /* width: 100%;
   height: 100%; */
 }
