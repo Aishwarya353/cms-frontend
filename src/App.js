@@ -62,7 +62,7 @@ if (window.localStorage.facultyJwtToken) {
   const currentTime = Date.now() / 1000;
   if (decoded.exp < currentTime) {
     store.dispatch(facultyLogout());
-    window.location.href = "https://cms-frontend-seven.vercel.app/";
+    window.location.href = "/";
   }
 } else if (window.localStorage.studentJwtToken) {
   setAuthToken(localStorage.studentJwtToken);
@@ -74,7 +74,7 @@ if (window.localStorage.facultyJwtToken) {
   const currentTime = Date.now() / 1000;
   if (decoded.exp < currentTime) {
     store.dispatch(studentLogout());
-    window.location.href = "https://cms-frontend-seven.vercel.app/";
+    window.location.href = "/";
   }
 } else if (window.localStorage.adminJwtToken) {
   setAuthToken(localStorage.adminJwtToken);
@@ -86,7 +86,7 @@ if (window.localStorage.facultyJwtToken) {
   const currentTime = Date.now() / 1000;
   if (decoded.exp < currentTime) {
     store.dispatch(adminLogout());
-    window.location.href = "https://cms-frontend-seven.vercel.app/";
+    window.location.href = "/";
   }
 }
 
